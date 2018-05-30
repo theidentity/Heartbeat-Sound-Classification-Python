@@ -14,13 +14,18 @@ def create_folder(path,gitignore):
 
 def create_skeleton():
 
-	gitignore = '*.wav \n *.jpg \n *.npy \n *.h5 \n'
+	gitignore = '*.wav\n*.jpg\n*.npy\n*.h5\n'
 
 	paths = [
 		'data/',
 		'data/sounds/original/',
 		'data/sounds/zero_padded/',
 		'data/images/mel/',
+		'data/csvs/',
+		'tmp/',
+		'models/',
+		'npy',
+		'logs/',
 	]
 
 	for path in paths:
